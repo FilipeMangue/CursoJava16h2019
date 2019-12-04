@@ -7,8 +7,15 @@ package mz.e.aula03;
 
 /**
  *
- * @author Filipe Emanuel
+ * @author joseseie
+ * @author Filipe Mangue
+ * @author Jose Romao
+ * @author Aly Macome
+ * @author Abdul Rasac
+ * @author Adriano Uaeca
+ * @author Valter Massango
+ * @author Efraime Mulote
  */
 public class Variaveis {
-    
+    int idade = 10;
 }
