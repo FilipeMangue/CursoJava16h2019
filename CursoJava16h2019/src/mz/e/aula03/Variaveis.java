@@ -17,5 +17,9 @@ package mz.e.aula03;
  * @author Efraime Mulote
  */
 public class Variaveis {
-    int idade = 10;
+    
+    public static void main(String [] args){
+        int idade = 10;
+        int tamanho;
+    }
 }
