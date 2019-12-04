@@ -19,7 +19,13 @@ package mz.e.aula03;
 public class Variaveis {
     
     public static void main(String [] args){
+        
+        //Variaveis inteiras
         int idade = 10;
         int tamanho;
+        
+        //Variaveis do tipo double ou decimais
+        double preco = 10.5;
+        double temperatura;
     }
 }
