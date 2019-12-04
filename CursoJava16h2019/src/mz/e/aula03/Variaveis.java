@@ -35,6 +35,7 @@ public class Variaveis {
         char sexo = 'M';
         
         //Variavel para guardar uma cadeia de caracteres
-        String sexoStr = "Masculino";
+        String sexoStr = "Masculino"; 
+        
     }
 }
