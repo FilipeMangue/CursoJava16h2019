@@ -14,13 +14,13 @@ import java.util.Scanner;
 public class Exercise14e {
     public static void main(String [] arg){
        Scanner scanner = new Scanner(System.in);
-        double t_em_c, t_em_Reumur;
+        double t_em_c, t_emK;
         
-        System.out.print("Digite temperatura em Celsius: ");
-        t_em_c = scanner.nextDouble();
+        System.out.print("Digite temperatura em  Kelvin: ");
+        t_emK = scanner.nextDouble();
         
-        t_em_Reumur = t_em_c * 4/5;
+        t_em_c = t_emK - 273.15;
         
-        System.out.println("Temperatura em Réaumur (Re): "+t_em_Reumur); 
+        System.out.println("Temperatura em Celsius: "+t_em_c); 
     }
 }
