@@ -16,11 +16,11 @@ public class Exercise14d {
        Scanner scanner = new Scanner(System.in);
         double t_em_c, t_emK;
         
-        System.out.print("Digite temperatura em Celsius: ");
+        System.out.print("Digite temperatura em  Kelvin: ");
         t_emK = scanner.nextDouble();
         
         t_em_c = t_emK - 273.15;
         
-        System.out.println("Temperatura em Kelvin: "+t_em_c); 
+        System.out.println("Temperatura em Celsius: "+t_em_c); 
     }
 }
