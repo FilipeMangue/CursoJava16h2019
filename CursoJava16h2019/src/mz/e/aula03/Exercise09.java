@@ -7,7 +7,9 @@ package mz.e.aula03;
 
 /**
  *
- * @author Filipe Emanuel
+ * @author Filipe Mangue  | 
+ *                        | Explicador Inc, Lda    
+ * @author José Seie      |
  */
 public class Exercise09 {
     
