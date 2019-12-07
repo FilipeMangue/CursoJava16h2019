@@ -18,9 +18,9 @@ public class Exercise09 {
         
         System.out.print("Digite um número: ");
         num1 = scan.nextInt();
-        System.out.print("Digite um número: ");
+        System.out.print("Digite outro número: ");
         num2 = scan.nextInt();
-        System.out.print("Digite um número: ");
+        System.out.print("Digite um outro número: ");
         num3 = scan.nextInt();
         
         if(num1 < num2 && num1 < num3){
