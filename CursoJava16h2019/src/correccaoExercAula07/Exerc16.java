@@ -1,14 +1,17 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+16. Criar um array A com 15 elementos inteiros. Construir um array B 
+    de mesmo tipo e tamanho, sendo que cada elemento do array B deverá 
+    ser o quadrado do respectivo elemento de A, ou seja: B[i] = A[i] * A[I]. 
  */
 package correccaoExercAula07;
 
 /**
  *
- * @author Filipe Emanuel
+ * @author José Seie
+ * @author Filipe Mangue
  */
 public class Exerc16 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
