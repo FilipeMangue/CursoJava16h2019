@@ -30,7 +30,7 @@ public class Exerc02 {
                 System.out.println("Valor ("+i+"): "+d[i]);
             }
         } else {
-            System.out.println("Obrigado!");
+            System.out.println("Terminado. Obrigado!");
         }
     }
 }
