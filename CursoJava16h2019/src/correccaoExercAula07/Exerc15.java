@@ -1,14 +1,34 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+15. Criar um array A com 8 elementos inteiros. Construir um array B de mesmo 
+    tipo e tamanho e com os elementos do array A multiplicados por 2, 
+    ou seja: B[i] = A[i] * 2. 
  */
 package correccaoExercAula07;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
  *
- * @author Filipe Emanuel
+ * @author José Seie
+ * @author Filipe Mangue
  */
 public class Exerc15 {
-    
+    public static void main(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int[] a = new int[8];
+        int[] b = new int[8];
+        
+        for (int i = 0; i < 8; i++) {
+            System.out.println("Digite o valor ("+i+"): ");
+            a[i] =  Integer.parseInt(br.readLine());
+        }
+        for (int i = 0; i < 8; i++) {
+            b[i] = a[i]*2;
+        }
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Valor A("+i+"): "+b[i]);
+        }
+    }
 }
