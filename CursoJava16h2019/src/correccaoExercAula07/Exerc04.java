@@ -13,9 +13,10 @@ public class Exerc04 {
         String [] a = new String []{"José","Filipe","Mutole","Uaeca","Aly"};
         String [] b = new String [5];
         
+        System.arraycopy(a, 0, b, 0, 5);
+        
         for (int i = 0; i < 5; i++) {
-            b[i] = a[i];
-            System.out.println(" "+b[i]);
+            System.out.println(""+b[i]);
         }
     }
 }
