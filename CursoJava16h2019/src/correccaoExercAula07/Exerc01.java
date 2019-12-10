@@ -22,16 +22,17 @@ public class Exerc01 {
         double [] mediasEstudantes = new double[10];
         
         for(int i = 0; i < 10;i++){
-            System.out.println("\nESTUDANTE ("+(i+1)+")");
-            System.out.print("Digte Nota do Exame de Matemática: ");
+            System.out.println("\nESTUDANTE ("+(i+1)+")\n---Digute as Notas---");
+            System.out.print("Nota do Exame de Matemática: ");
             exame1 = Double.parseDouble(br.readLine());
             
-            System.out.print("Digte Nota do Exame de Física: ");
+            System.out.print("Nota do Exame de Física: ");
             exame2 = Double.parseDouble(br.readLine());
             
             media = (exame1 * 0.70) + (exame2 * 0.30);
             mediasEstudantes[i] = media;
         }
+        System.out.print("\n");
         for(int i = 0; i < 10; i++){
             System.out.println("Média Geral ("+(i+1)+"): "+mediasEstudantes[i]);
         }
