@@ -10,5 +10,7 @@ package correccaoExercAula07;
  * @author Filipe Emanuel
  */
 public class Exerc19 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
