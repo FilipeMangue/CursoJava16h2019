@@ -17,17 +17,17 @@ import java.io.InputStreamReader;
 public class Exerc12 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int[] idades = new int[10];
-        int qtd_idade = 0, posicaoMaiorIdade = 0,posicaoMenorIdade = 0, maiorIdade = 0, menorIdade = 0;
+        int[] idades = new int[2];
+        int posicaoMaiorIdade = 0,posicaoMenorIdade = 0, maiorIdade = 0, menorIdade = 1;
         
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 2; i++) {
             System.out.println("Digite a Idade ("+i+"): ");
             idades[i] = Integer.parseInt(br.readLine());
-            if(maiorIdade > idades[i]) {
+            if(maiorIdade < idades[i]) {
                 maiorIdade = idades[i];
                 posicaoMaiorIdade = i;
             }
-            if (menorIdade < idades[i]) {
+            if (menorIdade > idades[i]) {
                 menorIdade = idades[i];
                 posicaoMenorIdade = i;
             }

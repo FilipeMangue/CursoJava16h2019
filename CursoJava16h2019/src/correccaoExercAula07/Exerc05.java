@@ -11,7 +11,7 @@ package correccaoExercAula07;
  */
 public class Exerc05 {
     public static void main(String[] args) {
-        int [] a = new int []{1,1,1,1,1,1,1,1};
+        int [] a = new int []{1,3,1,1,3,1,1,3};
         int [] b = new int []{1,1,1,1,1,1,1,1};
         int [] c = new int [8];
         
