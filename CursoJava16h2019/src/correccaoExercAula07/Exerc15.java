@@ -28,7 +28,7 @@ public class Exerc15 {
             b[i] = a[i]*2;
         }
         for (int i = 0; i < 5; i++) {
-            System.out.println("Valor A("+i+"): "+b[i]);
+            System.out.println("Valor B("+i+"): "+b[i]);
         }
     }
 }
