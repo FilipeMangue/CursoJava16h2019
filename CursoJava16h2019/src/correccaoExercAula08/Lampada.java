@@ -82,6 +82,10 @@ public class Lampada {
     public void setGrauLuminosidade(byte grauLuminosidade) {
         this.grauLuminosidade = grauLuminosidade;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Lampada{" + "cor=" + cor + ", estado=" + estado + ", tipo=" + tipo + ", voltagem=" + voltagem + ", grauLuminosidade=" + grauLuminosidade + '}';
+    }
     
 }
