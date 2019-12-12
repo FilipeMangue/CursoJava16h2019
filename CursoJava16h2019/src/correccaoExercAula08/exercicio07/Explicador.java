@@ -10,5 +10,9 @@ package correccaoExercAula08.exercicio07;
  * @author Filipe Emanuel
  */
 public class Explicador {
+    private String nomeUsuario;
+    private int dataNasc;
+    private String email;
+    private String codigoVisita;
     
 }
