@@ -2,7 +2,7 @@
 3. Faça um algoritmo que some o conteúdo de dois arrays 
    e armazene o resultado em um terceiro array. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc05;
 
 /**
  *
