@@ -3,7 +3,7 @@
     Criar dois onde cada elemento de  C  é a divisão dos  respectivos  elementos  
     em  A e  B,  ou seja: C[i] = A[i] / float(B[i]).
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
