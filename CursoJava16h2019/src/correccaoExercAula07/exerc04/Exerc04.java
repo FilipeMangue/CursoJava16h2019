@@ -1,7 +1,7 @@
 /*
 2. Faça um programa que copie o conteúdo de um array para um segundo array.
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc04;
 
 /**
  *
