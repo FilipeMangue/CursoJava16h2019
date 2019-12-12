@@ -48,19 +48,11 @@ public class Pessoa {
     }
 
     public String getCidade() {
-        return cidade;
+        return endereco;
     }
 
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
-    }
-
-    public String getProvincia() {
-        return provincia;
-    }
-
-    public void setProvincia(String provincia) {
-        this.provincia = provincia;
+    public void setCidade(String endereco) {
+        this.endereco = endereco;
     }
 
     public void opcoes(){
