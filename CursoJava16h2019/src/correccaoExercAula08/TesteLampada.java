@@ -11,6 +11,9 @@ package correccaoExercAula08;
  */
 public class TesteLampada {
     public static void main(String[] args) {
+        Lampada lamp1 = new Lampada("Azul", true, "Incandiescente", 12.5, (byte)1);
+        Lampada lamp2 = new Lampada("Verde", true, "Fluorcente", 20, (byte)20);
+        
         
     }
 }
