@@ -22,4 +22,36 @@ public class Explicador {
         this.codigoVisita = codigoVisita;
     }
 
+    public String getNomeUsuario() {
+        return nomeUsuario;
+    }
+
+    public void setNomeUsuario(String nomeUsuario) {
+        this.nomeUsuario = nomeUsuario;
+    }
+
+    public int getDataNasc() {
+        return dataNasc;
+    }
+
+    public void setDataNasc(int dataNasc) {
+        this.dataNasc = dataNasc;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getCodigoVisita() {
+        return codigoVisita;
+    }
+
+    public void setCodigoVisita(String codigoVisita) {
+        this.codigoVisita = codigoVisita;
+    }
+
 }
