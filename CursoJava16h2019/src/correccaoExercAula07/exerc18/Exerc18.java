@@ -6,7 +6,7 @@
     do usuário em caso de  uma consulta inválida,  ou seja,  com  números menores  ou  
     iguais  a  zero, ou maiores  do  que a  quantidade cadastrada.
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc18;
 
 import java.util.Scanner;
 
