@@ -14,5 +14,12 @@ public class Explicador {
     private int dataNasc;
     private String email;
     private String codigoVisita;
-    
+
+    public Explicador(String nomeUsuario, int dataNasc, String email, String codigoVisita) {
+        this.nomeUsuario = nomeUsuario;
+        this.dataNasc = dataNasc;
+        this.email = email;
+        this.codigoVisita = codigoVisita;
+    }
+
 }
