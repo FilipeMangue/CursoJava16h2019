@@ -10,5 +10,8 @@ package correccaoExercAula08.exercicio14;
  * @author Filipe Emanuel
  */
 public class Factura {
-    
+    String numero;
+    String descricao;
+    int qtdComprada;
+    double precoPorItem;
 }

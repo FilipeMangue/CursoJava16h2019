@@ -66,9 +66,7 @@ public class Pessoa {
     public void setProvincia(String provincia) {
         this.provincia = provincia;
     }
-    
-    
-        
+
     public void opcoes(){
         System.out.println("1 - Cadastrar Pessoa\n"
                          + "2 - Remover Pessoa"
