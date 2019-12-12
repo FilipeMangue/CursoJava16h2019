@@ -14,4 +14,12 @@ public class Factura {
     String descricao;
     int qtdComprada;
     double precoPorItem;
+
+    public Factura(String numero, String descricao, int qtdComprada, double precoPorItem) {
+        this.numero = numero;
+        this.descricao = descricao;
+        this.qtdComprada = qtdComprada;
+        this.precoPorItem = precoPorItem;
+    }
+
 }
