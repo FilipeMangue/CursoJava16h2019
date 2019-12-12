@@ -14,6 +14,6 @@ public class TesteLampada {
         Lampada lamp1 = new Lampada("Azul", true, "Incandiescente", 12.5, (byte)1);
         Lampada lamp2 = new Lampada("Verde", true, "Fluorcente", 20, (byte)20);
         
-        
+        System.out.println(lamp1.toString());
     }
 }
