@@ -115,7 +115,7 @@ public class Lampada {
 
     @Override
     public String toString() {
-        return "Lampada{" + "cor=" + cor + ", estado=" + estado + ", tipo=" + tipo + ", voltagem=" + voltagem + ", grauLuminosidade=" + grauLuminosidade + '}';
+        return "Lâmpada [" + "\nCor: " + cor + ", \nEstado: " + estado + ", \nTipo: " + tipo + ", \nVoltagem: " + voltagem + ", \nGrau de Luminosidade: " + grauLuminosidade + ']';
     }
     
 }
