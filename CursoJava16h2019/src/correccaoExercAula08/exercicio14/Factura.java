@@ -21,6 +21,10 @@ public class Factura {
         this.qtdComprada = qtdComprada;
         this.precoPorItem = precoPorItem;
     }
+    
+    public double getTotalFactura(){
+        return 0;
+    }
 
     public String getNumero() {
         return numero;
