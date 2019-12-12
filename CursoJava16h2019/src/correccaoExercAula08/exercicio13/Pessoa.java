@@ -10,45 +10,41 @@ package correccaoExercAula08.exercicio13;
  * @author Filipe Emanuel
  */
 public class Pessoa {
-    String rua;
-    int numero;
-    String bairro;
-    String cidade;
-    String provincia;
+    String nome;
+    int ano_nasc;
+    String endereco;
 
     public Pessoa() {
     }
     
-    public Pessoa(String rua, int numero, String bairro, String cidade, String provincia) {
-        this.rua = rua;
-        this.numero = numero;
-        this.bairro = bairro;
-        this.cidade = cidade;
-        this.provincia = provincia;
+    public Pessoa(String rua, int numero, String endereco, String cidade, String provincia) {
+        this.nome = rua;
+        this.ano_nasc = numero;
+        this.endereco = endereco;
     }
 
     public String getRua() {
-        return rua;
+        return nome;
     }
 
     public void setRua(String rua) {
-        this.rua = rua;
+        this.nome = rua;
     }
 
     public int getNumero() {
-        return numero;
+        return ano_nasc;
     }
 
     public void setNumero(int numero) {
-        this.numero = numero;
+        this.ano_nasc = numero;
     }
 
     public String getBairro() {
-        return bairro;
+        return endereco;
     }
 
     public void setBairro(String bairro) {
-        this.bairro = bairro;
+        this.endereco = bairro;
     }
 
     public String getCidade() {
