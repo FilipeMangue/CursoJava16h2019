@@ -10,5 +10,11 @@ package correccaoExercAula08.exercicio13;
  * @author Filipe Emanuel
  */
 public class Pessoa {
-    
+    public void opcoes(){
+        System.out.println("1 - Cadastrar Pessoa\n"
+                         + "2 - Remover Pessoa"
+                         + "3 - Modificar Pessoa]"
+                         + "4 - Exibir Pessoa"
+                         + "5 - Sair\n");
+    }
 }
