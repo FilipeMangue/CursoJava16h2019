@@ -16,6 +16,9 @@ public class Pessoa {
     String cidade;
     String provincia;
 
+    public Pessoa() {
+    }
+    
     public Pessoa(String rua, int numero, String bairro, String cidade, String provincia) {
         this.rua = rua;
         this.numero = numero;
