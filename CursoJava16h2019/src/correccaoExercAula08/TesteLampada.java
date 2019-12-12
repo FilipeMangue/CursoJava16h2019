@@ -10,5 +10,7 @@ package correccaoExercAula08;
  * @author Filipe Emanuel
  */
 public class TesteLampada {
-    
+    public static void main(String[] args) {
+        
+    }
 }
