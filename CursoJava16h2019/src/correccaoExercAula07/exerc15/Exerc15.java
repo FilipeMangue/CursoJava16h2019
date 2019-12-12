@@ -3,7 +3,7 @@
     tipo e tamanho e com os elementos do array A multiplicados por 2, 
     ou seja: B[i] = A[i] * 2. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
