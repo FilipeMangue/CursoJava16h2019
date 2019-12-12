@@ -10,5 +10,7 @@ package correccaoExercAula08.exercicio15;
  * @author Filipe Emanuel
  */
 public class Empregado {
-    
+    String nome;
+    String sobrenome;
+    double salario;
 }
