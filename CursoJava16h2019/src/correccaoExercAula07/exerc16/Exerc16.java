@@ -3,7 +3,7 @@
     de mesmo tipo e tamanho, sendo que cada elemento do array B deverá 
     ser o quadrado do respectivo elemento de A, ou seja: B[i] = A[i] * A[I]. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc16;
 
 import java.io.BufferedReader;
 import java.io.IOException;
