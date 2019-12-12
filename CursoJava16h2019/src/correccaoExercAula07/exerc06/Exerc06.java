@@ -2,7 +2,7 @@
  4. Faça um programa que faça a união de dois arrays de mesmo tamanho 
     e mesmo tipo em um terceiro array com dobro do tamanho. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc06;
 
 /**
  *
