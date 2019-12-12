@@ -3,7 +3,7 @@
    Construir um array C, onde cada elemento de C é a soma dos 
    respectivos elementos em A e B, ou seja: C[i] = A[i] + B[i]. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc07;
 
 /**
  *
