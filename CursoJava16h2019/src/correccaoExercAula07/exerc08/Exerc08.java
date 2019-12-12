@@ -2,7 +2,7 @@
 6. Criar um array A com 10 elementos inteiros. Implementar um programa 
    que defina e escreva a soma de todos os elementos armazenados neste array. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc08;
 
 /**
  *
