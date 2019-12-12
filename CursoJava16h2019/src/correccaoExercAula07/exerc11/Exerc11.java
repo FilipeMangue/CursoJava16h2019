@@ -3,7 +3,7 @@
     idades de um grupo de pessoas. Escreva um programa que determine e 
     escreva a quantidade de pessoas que possuem idade superior a 35 anos. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc11;
 
 import java.io.BufferedReader;
 import java.io.IOException;
