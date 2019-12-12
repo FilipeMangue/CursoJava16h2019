@@ -15,4 +15,13 @@ public class Endereco {
     String bairro;
     String cidade;
     String provincia;
+
+    public Endereco(String rua, int numero, String bairro, String cidade, String provincia) {
+        this.rua = rua;
+        this.numero = numero;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.provincia = provincia;
+    }
+    
 }
