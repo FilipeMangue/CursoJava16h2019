@@ -2,7 +2,7 @@
 7. Criar um array A com 10 elementos inteiros. Implementar um programa 
    que determine a soma dos elementos armazenados neste array que são múltiplos de 5. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc09;
 
 /**
  *
