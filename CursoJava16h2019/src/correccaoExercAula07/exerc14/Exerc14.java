@@ -2,7 +2,7 @@
 14. Criar um array A com 5 elementos inteiros. Construir um array B de mesmo 
     tipo e tamanho e com os "mesmos" elementos do array A, ou seja, B[i] = A[i]. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc14;
 
 import java.io.BufferedReader;
 import java.io.IOException;
