@@ -4,7 +4,7 @@
     b) a quantidade de elementos armazenados no array que são iguais a 15; e c) a 
     média dos elementos armazenados no array que são superiores a 15. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc10;
 
 import java.io.BufferedReader;
 import java.io.IOException;
