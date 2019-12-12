@@ -2,7 +2,7 @@
 2. Escreva um programa que leia 10 valores reais do teclado e armazene-os num 
    array d e permita que sejam impressos quanto solicitados. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc02;
 
 import java.io.BufferedReader;
 import java.io.IOException;
