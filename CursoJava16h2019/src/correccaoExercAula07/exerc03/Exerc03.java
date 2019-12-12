@@ -4,7 +4,7 @@
    ou seja, na posição número 0 ponha 101, na posição 1 ponha o número 102, 
    e assim sucessivamente. Em seguida exiba os valores deste vector. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc03;
 
 /**
  *
