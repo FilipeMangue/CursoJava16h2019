@@ -3,7 +3,7 @@
     de um grupo de pessoas. Escreva um programa que determine e escreva 
     a menor e a maior idades e suas respectivas posições. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc12;
 
 import java.io.BufferedReader;
 import java.io.IOException;
