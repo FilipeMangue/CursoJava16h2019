@@ -36,7 +36,7 @@ public class Lampada {
     }
     
     public void estadoDaLuz(){
-        if(this.estado = true){
+        if(this.estado == true){
             System.out.println("Luz Ligada");
         } else {
             System.out.println("Luz Desligada");
@@ -45,8 +45,32 @@ public class Lampada {
     
     public void lampadaFundida(int lampadaFundida){
         if(this.getGrauLuminosidade() > lampadaFundida){
-            System.out.println("Lâmpada  Fundida"); 
+            System.out.println("Lâmpada Fundida"); 
         }
+    }
+    
+    public void verificaVoltagem(Lampada lamp1, Lampada lamp2){
+        if(lamp1.getVoltagem() == lamp2.getVoltagem()){
+            System.out.println("As Lâmpadas tem a mesma voltagem");
+        } else {
+            System.out.println("As Lâmpadas não tem a mesma voltagem");
+        }
+    }
+    
+    public void igualidadeDeLampadas(Lampada lamp1, Lampada lamp2){
+        if(lamp1 == lamp2){
+            System.out.println("As Lâmpadas são iguais.");
+        } else {
+            System.out.println("As Lâmpadas não são iguais.");
+        }
+    }
+    
+    public void aumentarLumin(Lampada lampada){
+        lampada.setGrauLuminosidade((byte) (this.grauLuminosidade + 5));
+    }
+    
+    public void diminuirLumin(Lampada lampada){
+        lampada.setGrauLuminosidade((byte) (this.grauLuminosidade - 5));
     }
 
     public String getCor() {
