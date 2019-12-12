@@ -4,7 +4,7 @@
     tem peso 70%, e o segundo tem peso 30%. Faça um porgrama para calcular a média 
     final de 10 alunos nestas disciplinas. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
