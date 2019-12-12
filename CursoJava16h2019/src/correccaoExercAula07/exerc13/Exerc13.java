@@ -2,7 +2,7 @@
 13. Criar um array A com 10 elementos inteiros. Implementar um programa que 
     defina e escreva a quantidade de elementos armazenados neste vetor que são pares. 
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc13;
 
 import java.io.BufferedReader;
 import java.io.IOException;
