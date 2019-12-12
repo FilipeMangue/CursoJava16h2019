@@ -7,7 +7,7 @@
     do explicador procurado . código .  Após  sua resposta,  exiba  o código  
 do explicador procurado
  */
-package correccaoExercAula07;
+package correccaoExercAula07.exerc19;
 
 import java.util.Scanner;
 
