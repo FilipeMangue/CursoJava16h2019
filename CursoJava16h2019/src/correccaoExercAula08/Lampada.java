@@ -42,6 +42,12 @@ public class Lampada {
             System.out.println("Luz Desligada");
         }
     }
+    
+    public void lampadaFundida(int lampadaFundida){
+        if(this.getGrauLuminosidade() > lampadaFundida){
+            System.out.println("Lâmpada  Fundida"); 
+        }
+    }
 
     public String getCor() {
         return cor;
