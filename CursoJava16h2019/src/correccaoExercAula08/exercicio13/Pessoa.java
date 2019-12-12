@@ -15,7 +15,15 @@ public class Pessoa {
     String bairro;
     String cidade;
     String provincia;
-    
+
+    public Pessoa(String rua, int numero, String bairro, String cidade, String provincia) {
+        this.rua = rua;
+        this.numero = numero;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.provincia = provincia;
+    }
+        
     public void opcoes(){
         System.out.println("1 - Cadastrar Pessoa\n"
                          + "2 - Remover Pessoa"
