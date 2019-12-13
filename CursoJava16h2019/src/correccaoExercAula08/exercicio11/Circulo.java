@@ -15,4 +15,11 @@ public class Circulo {
     double y;
     double PI;
 
+    public Circulo(double raio, double x, double y, double PI) {
+        this.raio = raio;
+        this.x = x;
+        this.y = y;
+        this.PI = PI;
+    }
+
 }
