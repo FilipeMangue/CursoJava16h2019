@@ -10,5 +10,8 @@ package correccaoExercAula08.exercicio09;
  * @author Filipe Emanuel
  */
 public class Livro {
-    
+    String titulo;
+    String autor;
+    String codigo;
+    double preco;
 }
