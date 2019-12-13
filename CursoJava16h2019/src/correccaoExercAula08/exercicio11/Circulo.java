@@ -10,5 +10,9 @@ package correccaoExercAula08.exercicio11;
  * @author Filipe Emanuel
  */
 public class Circulo {
-    
+    double raio;
+    double x;
+    double y;
+    double PI;
+
 }
