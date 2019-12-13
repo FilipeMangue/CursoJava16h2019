@@ -18,9 +18,7 @@ public class Exerc06 {
         for (int i = 0; i < 8; i++) {
             c[i] = a[i];
             if(i == 8){
-                for (int j = 0; j < 8; j++) {
-                    c[j+7] = b[j];
-                }
+                System.arraycopy(b, 0, c, 7, 8);
             }
         }
         for (int i = 0; i < 16; i++) {
