@@ -10,5 +10,9 @@ package correccaoExercAula08.exercicio08;
  * @author Filipe Emanuel
  */
 public class CadernoDeEnderecos {
-    
+    String nome;
+    String telefone;
+    String email;
+    byte data_nasc;
+    String endereco;
 }
