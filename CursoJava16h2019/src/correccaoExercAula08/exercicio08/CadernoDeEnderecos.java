@@ -15,4 +15,13 @@ public class CadernoDeEnderecos {
     String email;
     byte data_nasc;
     String endereco;
+
+    public CadernoDeEnderecos(String nome, String telefone, String email, byte data_nasc, String endereco) {
+        this.nome = nome;
+        this.telefone = telefone;
+        this.email = email;
+        this.data_nasc = data_nasc;
+        this.endereco = endereco;
+    }
+    
 }
