@@ -53,5 +53,10 @@ public class Livro {
     public void setPreco(double preco) {
         this.preco = preco;
     }
+
+    @Override
+    public String toString() {
+        return "Livro{" + "titulo=" + titulo + ", autor=" + autor + ", codigo=" + codigo + ", preco=" + preco + '}';
+    }
        
 }
