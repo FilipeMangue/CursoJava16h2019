@@ -10,5 +10,7 @@ package correccaoExercAula08.exercicio08;
  * @author Filipe Emanuel
  */
 public class CadernoDeEnderecosTeste {
-    
+    public static void main(String[] args) {
+        
+    }
 }
