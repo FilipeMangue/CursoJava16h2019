@@ -14,4 +14,13 @@ public class Livro {
     String autor;
     String codigo;
     double preco;
+
+    public Livro(String titulo, String autor, String codigo, double preco) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.codigo = codigo;
+        this.preco = preco;
+    }
+    
+    
 }
