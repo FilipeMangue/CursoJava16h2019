@@ -22,4 +22,35 @@ public class Circulo {
         this.PI = PI;
     }
 
+    public double getRaio() {
+        return raio;
+    }
+
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public double getPI() {
+        return PI;
+    }
+
+    public void setPI(double PI) {
+        this.PI = PI;
+    }
 }
