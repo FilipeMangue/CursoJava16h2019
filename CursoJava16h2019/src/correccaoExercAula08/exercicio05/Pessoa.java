@@ -10,5 +10,8 @@ package correccaoExercAula08.exercicio05;
  * @author Filipe Emanuel
  */
 public class Pessoa {
-    
+    String nome;
+    int idade;
+    Pai pai;
+    Mae mae;
 }
