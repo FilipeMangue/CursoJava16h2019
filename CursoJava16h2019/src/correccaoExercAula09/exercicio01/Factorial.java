@@ -9,16 +9,20 @@ import java.util.Scanner;
  */
 public class Factorial {
     public static float factorial(int n){
-        if(n == 0)
-            return (float) 1.0;
+        if(n == 0){
+            return 1;   
+        }
         return n * factorial(n - 1);
     }
     
     public static void main(String[] args) {
-        float fat;
+        float fat, res;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o Valor Para a Calcular Factorial: ");
         fat = scanner.nextInt();
-        System.out.println("Factorial de "+fat+" : "+fat);
+        
+        res = factorial((int) fat);
+        
+        System.out.println("Factorial de "+fat+" : "+res);
     }
 }
