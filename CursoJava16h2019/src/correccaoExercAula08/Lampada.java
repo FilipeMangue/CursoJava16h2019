@@ -16,8 +16,6 @@ public class Lampada {
     double voltagem;
     byte grauLuminosidade;
 
-    public Lampada() {
-    }
     
     public Lampada(String cor, boolean estado, String tipo, double voltagem, byte grauLuminosidade) {
         this.cor = cor;
@@ -57,7 +55,7 @@ public class Lampada {
         }
     }
     
-    public void verificaVoltagem(Lampada lamp1, Lampada lamp2){
+    public static void verificaVoltagem(Lampada lamp1, Lampada lamp2){
         if(lamp1.getVoltagem() == lamp2.getVoltagem()){
             System.out.println("As Lâmpadas tem a mesma voltagem");
         } else {
@@ -65,7 +63,7 @@ public class Lampada {
         }
     }
     
-    public void igualidadeDeLampadas(Lampada lamp1, Lampada lamp2){
+    public static void igualidadeDeLampadas(Lampada lamp1, Lampada lamp2){
         if(lamp1 == lamp2){
             System.out.println("As Lâmpadas são iguais.");
         } else {
@@ -73,12 +71,12 @@ public class Lampada {
         }
     }
     
-    public void aumentarLumin(Lampada lampada){
-        lampada.setGrauLuminosidade((byte) (this.grauLuminosidade + 5));
+    public void aumentarLumin(){
+        setGrauLuminosidade((byte) (this.grauLuminosidade + 5));
     }
     
-    public void diminuirLumin(Lampada lampada){
-        lampada.setGrauLuminosidade((byte) (this.grauLuminosidade - 5));
+    public void diminuirLumin(){
+        setGrauLuminosidade((byte) (this.grauLuminosidade - 5));
     }
 
     public String getCor() {
