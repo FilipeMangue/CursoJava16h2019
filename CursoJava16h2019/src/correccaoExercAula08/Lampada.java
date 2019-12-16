@@ -43,9 +43,11 @@ public class Lampada {
         }
     }
     
-    public void lampadaFundida(int lampadaFundida){
-        if(this.getGrauLuminosidade() > lampadaFundida){
+    public void lampadaFundida(){
+        if(this.getGrauLuminosidade() > 100){
             System.out.println("Lâmpada Fundida"); 
+        } else if (this.grauLuminosidade <= 0) {
+            System.out.println("Lâmpada Não Fundida");
         }
     }
     
@@ -113,12 +115,12 @@ public class Lampada {
         this.grauLuminosidade = grauLuminosidade;
     }
     
-    public boolean ligarLampadad(){
-        return true;
+    public boolean ligarLuz(){
+        return estado = true;
     }
     
-    public boolean desligarLampada(){
-        return false;
+    public boolean desligarLuz(){
+        return estado = false;
     }
 
     @Override
