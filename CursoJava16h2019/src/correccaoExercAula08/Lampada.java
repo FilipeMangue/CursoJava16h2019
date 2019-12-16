@@ -27,18 +27,24 @@ public class Lampada {
         this.grauLuminosidade = grauLuminosidade;
     }
     
-    public boolean ligar(){
-        return true;
+    public boolean ligar(int grauLuminosidade){
+        if (grauLuminosidade > 100){
+            estado = false;
+        }
+        return estado;
     }
     
-    public boolean desligar(){
-        return false;
+    public boolean desligar(int grauLuminosidade){
+         if (grauLuminosidade > 100){
+            estado = false;
+        }
+        return estado;
     }
     
-    public void estadoDaLuz(){
-        if(this.estado == true){
+    public void estadoDaLuz(boolean estado){
+        if(estado == true){
             System.out.println("Luz Ligada");
-        } else {
+        } else if(estado == false) {
             System.out.println("Luz Desligada");
         }
     }
