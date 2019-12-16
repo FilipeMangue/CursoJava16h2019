@@ -7,7 +7,7 @@ package correccaoExercAula08;
 
 /**
  *
- * @author Filipe Emanuel
+ * @author Filipe Mangue
  */
 public class Lampada {
     String cor;
