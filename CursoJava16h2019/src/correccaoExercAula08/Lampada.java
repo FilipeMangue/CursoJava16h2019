@@ -112,6 +112,14 @@ public class Lampada {
     public void setGrauLuminosidade(byte grauLuminosidade) {
         this.grauLuminosidade = grauLuminosidade;
     }
+    
+    public boolean ligarLampadad(){
+        return true;
+    }
+    
+    public boolean desligarLampada(){
+        return false;
+    }
 
     @Override
     public String toString() {
