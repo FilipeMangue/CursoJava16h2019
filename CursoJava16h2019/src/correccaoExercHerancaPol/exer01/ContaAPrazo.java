@@ -12,4 +12,8 @@ package correccaoExercHerancaPol.exer01;
 public class ContaAPrazo {
      String titular;
      double saldo;
+     
+     public void definirSaldoInicial(){
+         this.saldo = 5000;
+     }
 }
