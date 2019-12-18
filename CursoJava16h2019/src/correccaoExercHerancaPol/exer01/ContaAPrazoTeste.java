@@ -14,6 +14,6 @@ public class ContaAPrazoTeste {
        ContaAPrazo conta = new ContaAPrazo();
        
        conta.definirSaldoInicial(5000);
-       
+       System.out.println("Saldo Actual: "+conta.getSaldo());
     }
 }
