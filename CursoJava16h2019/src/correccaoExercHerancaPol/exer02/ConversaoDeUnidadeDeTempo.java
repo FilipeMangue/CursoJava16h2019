@@ -86,7 +86,6 @@ public class ConversaoDeUnidadeDeTempo {
                 System.out.println(ano+" ano(s) tem "+anoParaDias(ano)+" dia(s).");
                 break;
             default: System.out.println("A opção digitada não existe.");
-                    
         }
     }
 }
