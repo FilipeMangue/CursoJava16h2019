@@ -10,5 +10,6 @@ package correccaoExercHerancaPol.exer01;
  * @author Filipe Emanuel
  */
 public class ContaAPrazo {
-     
+     String titular;
+     double saldo;
 }
