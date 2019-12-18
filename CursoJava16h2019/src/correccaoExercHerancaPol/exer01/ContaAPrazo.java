@@ -24,4 +24,8 @@ public class ContaAPrazo {
      public void depositar(double valor){
          this.saldo = saldo + valor;
      }
+     
+     public double getSaldo(){
+         return saldo;
+     }
 }
