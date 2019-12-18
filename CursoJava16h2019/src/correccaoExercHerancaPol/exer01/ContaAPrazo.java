@@ -20,4 +20,8 @@ public class ContaAPrazo {
      public void levantar(double valor){
          this.saldo = saldo - valor;
      }
+     
+     public void depositar(double valor){
+         this.saldo = saldo + valor;
+     }
 }
