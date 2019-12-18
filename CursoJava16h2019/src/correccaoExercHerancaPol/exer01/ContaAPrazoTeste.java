@@ -10,5 +10,7 @@ package correccaoExercHerancaPol.exer01;
  * @author Filipe Emanuel
  */
 public class ContaAPrazoTeste {
-    
+    public static void main(String[] args) {
+        
+    }
 }
