@@ -12,5 +12,8 @@ package correccaoExercHerancaPol.exer01;
 public class ContaAPrazoTeste {
     public static void main(String[] args) {
        ContaAPrazo conta = new ContaAPrazo();
+       
+       conta.definirSaldoInicial(5000);
+       
     }
 }
