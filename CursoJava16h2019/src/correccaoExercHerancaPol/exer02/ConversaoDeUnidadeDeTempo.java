@@ -5,6 +5,8 @@
  */
 package correccaoExercHerancaPol.exer02;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Filipe Emanuel
@@ -35,6 +37,9 @@ public class ConversaoDeUnidadeDeTempo {
     }
     
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        double numero, dia, mes, ano, semana, hora, minuto;
+        
         System.out.println("1 - Minuto para Segundos\n" +
                              "2 - Dia para Minutos\n" +
                              "3 - Dia para Horas\n" +
@@ -42,5 +47,41 @@ public class ConversaoDeUnidadeDeTempo {
                              "5 - Mês para Dias \n" +
                              "6 - Ano para Dias\n" + 
                              "Escolha a Opção do Seu Interesse:");
+        numero = scan.nextInt();
+        
+        switch((int)numero){
+            case 1:
+                System.out.println("Digite o número em minuto(s): ");
+                minuto = scan.nextInt();
+                System.out.println(minuto+"minuto(s) tem "+minutoParaSegundo(minuto)+" segundos.");
+                break;
+            case 2:
+                System.out.println("Digite o número em hora(s): ");
+                hora = scan.nextInt();
+                System.out.println(hora+"dis(s) tem "+horaParaMinutos(hora)+" minuto(s).");
+                break;
+            case 3:
+                 System.out.println("Digite o número em dia(s): ");
+                dia = scan.nextInt();
+                System.out.println(dia+"dis(s) tem "+diaParaHoras(dia)+" hora(s).");
+                break;
+            case 4:
+                System.out.println("Digite o número em semana(s): ");
+                semana = scan.nextInt();
+                System.out.println(semana+"semana(s) tem "+semanaParaDias(semana)+" dia(s).");
+                break;
+            case 5:
+                System.out.println("Digite o número em mes(es): ");
+                mes = scan.nextInt();
+                System.out.println(mes+"minuto(s) tem "+mesParaDias(mes)+" dia(s).");
+                break;
+            case 6:
+                System.out.println("Digite o número em ano(s): ");
+                ano = scan.nextInt();
+                System.out.println(ano+"minuto(s) tem "+anoParaDias(ano)+" dia(s).");
+                break;
+            default: System.out.println("A opção digitada não existe.");
+                    
+        }
     }
 }
