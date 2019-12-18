@@ -13,7 +13,7 @@ public class ContaAPrazo {
      String titular;
      double saldo;
      
-     public void definirSaldoInicial(){
-         this.saldo = 5000;
+     public void definirSaldoInicial(double saldo){
+         this.saldo = saldo;
      }
 }
