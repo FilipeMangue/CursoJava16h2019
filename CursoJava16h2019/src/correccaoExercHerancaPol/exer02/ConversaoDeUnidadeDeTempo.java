@@ -35,6 +35,12 @@ public class ConversaoDeUnidadeDeTempo {
     }
     
     public static void main(String[] args) {
-        System.out.println("Escolha a Opção do Seu Interesse:");
+        System.out.println("1 - Minuto para Segundos\n" +
+                             "2 - Dia para Minutos\n" +
+                             "3 - Dia para Horas\n" +
+                             "4 - Semana para Dias\n" +
+                             "5 - Mês para Dias \n" +
+                             "6 - Ano para Dias\n" + 
+                             "Escolha a Opção do Seu Interesse:");
     }
 }
