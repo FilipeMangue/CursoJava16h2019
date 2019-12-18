@@ -16,4 +16,8 @@ public class ContaAPrazo {
      public void definirSaldoInicial(double saldo){
          this.saldo = saldo;
      }
+     
+     public void levantar(double valor){
+         this.saldo = saldo - valor;
+     }
 }
