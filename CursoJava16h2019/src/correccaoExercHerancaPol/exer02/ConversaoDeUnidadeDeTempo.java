@@ -58,32 +58,32 @@ public class ConversaoDeUnidadeDeTempo {
             case 1:
                 System.out.println("Digite o número em minuto(s): ");
                 minuto = scan.nextInt();
-                System.out.println(minuto+"minuto(s) tem "+minutoParaSegundo(minuto)+" segundos.");
+                System.out.println(minuto+" minuto(s) tem "+minutoParaSegundo(minuto)+" segundos.");
                 break;
             case 2:
                 System.out.println("Digite o número em hora(s): ");
                 hora = scan.nextInt();
-                System.out.println(hora+"dis(s) tem "+horaParaMinutos(hora)+" minuto(s).");
+                System.out.println(hora+" hora(s) tem "+horaParaMinutos(hora)+" minuto(s).");
                 break;
             case 3:
                  System.out.println("Digite o número em dia(s): ");
                 dia = scan.nextInt();
-                System.out.println(dia+"dis(s) tem "+diaParaHoras(dia)+" hora(s).");
+                System.out.println(dia+" dias(s) tem "+diaParaHoras(dia)+" hora(s).");
                 break;
             case 4:
                 System.out.println("Digite o número em semana(s): ");
                 semana = scan.nextInt();
-                System.out.println(semana+"semana(s) tem "+semanaParaDias(semana)+" dia(s).");
+                System.out.println(semana+" semana(s) tem "+semanaParaDias(semana)+" dia(s).");
                 break;
             case 5:
                 System.out.println("Digite o número em mes(es): ");
                 mes = scan.nextInt();
-                System.out.println(mes+"minuto(s) tem "+mesParaDias(mes)+" dia(s).");
+                System.out.println(mes+" mes(s) tem "+mesParaDias(mes)+" dia(s).");
                 break;
             case 6:
                 System.out.println("Digite o número em ano(s): ");
                 ano = scan.nextInt();
-                System.out.println(ano+"minuto(s) tem "+anoParaDias(ano)+" dia(s).");
+                System.out.println(ano+" ano(s) tem "+anoParaDias(ano)+" dia(s).");
                 break;
             default: System.out.println("A opção digitada não existe.");
                     
