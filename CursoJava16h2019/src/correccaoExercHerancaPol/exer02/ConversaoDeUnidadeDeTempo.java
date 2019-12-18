@@ -9,7 +9,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author Filipe Emanuel
+ * @author FILIPE MANGUE   -    Who am I?
+ *         Business Simulation BootCamp Monitor - ITIS
+           Computer Engineering Student - UEM
+           Member of the Innovative Informatics Group (Department of Projects and Innovation, NEEN-UEM)
+           Intern Developer/Ambassador - Explicador Inc, Lda
+ *         
  */
 public class ConversaoDeUnidadeDeTempo {
     public static double minutoParaSegundo(double numero){
