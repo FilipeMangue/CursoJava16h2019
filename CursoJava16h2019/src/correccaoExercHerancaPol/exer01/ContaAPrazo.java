@@ -9,6 +9,6 @@ package correccaoExercHerancaPol.exer01;
  *
  * @author Filipe Emanuel
  */
-public class Conta {
+public class ContaAPrazo {
      
 }
