@@ -32,5 +32,7 @@ public class Exerc02 {
         } else {
             System.out.println("Terminado. Obrigado!");
         }
+        
+       
     }
 }
