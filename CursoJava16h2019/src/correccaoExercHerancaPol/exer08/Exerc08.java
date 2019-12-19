@@ -5,16 +5,27 @@
  */
 package correccaoExercHerancaPol.exer08;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Filipe Emanuel
  */
 public class Exerc08 {
-    double valorEmDolar;
+    static double valorEmDolar, qtdValorEmDolar;
     
     public static double convertor(double  valorEmDolar){
         return  valorEmDolar * 1;
     }
     
-    
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o valor da cotacao em dolar: ");
+        valorEmDolar = scan.nextDouble();
+        
+        System.out.println("Digite o valor da cotacao em dolar: ");
+        qtdValorEmDolar = scan.nextDouble();
+        
+        System.out.println("Valor em meticais: "+convertor(valorEmDolar));
+    }
 }
