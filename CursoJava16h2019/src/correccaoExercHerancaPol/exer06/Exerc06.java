@@ -13,5 +13,9 @@ public class Exerc06 {
     String nome;
     double salarioFixo;
     double totalVendasDinheiro;
-    double comissao = 0.15;
+    static double comissao = 0.15;
+    
+    public static double salarioFinal(double salarioFixo, double totalVendasDinheiro){
+        return (totalVendasDinheiro * comissao) +  salarioFixo;
+    }
 }
