@@ -26,4 +26,8 @@ public class CalculadoraBase {
         if (num2 == 0) return num2 / num1;
         return num1 / num2;
     }
+    
+    public static void main(String[] args) {
+        
+    }
 }
