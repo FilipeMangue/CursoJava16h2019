@@ -5,12 +5,18 @@
  */
 package correccaoExercHerancaPol.exer07;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Filipe Emanuel
  */
 public class Exerc07 {
+    static String nome;
+    static double nota1;
+    static double nota2;
+    static double nota3;
+     
     public static void main(String[] args) {
-        
     }
 }
