@@ -5,10 +5,24 @@
  */
 package correccaoExercHerancaPol.exer09;
 
+import java.util.Scanner;
+
 /**
  *
- * @author Filipe Emanuel
+ * @author Filipe Mangue
  */
 public class Exerc09 {
+    static double valor;
+    static double percentagem = 0.70; 
     
+    public static double rendimento(){
+        return (valor * percentagem) + valor; 
+    }
+    
+    public static void main(String[] args) {
+        double valor;
+        Scanner scan = new Scanner(System.in);
+        
+        
+    }
 }
