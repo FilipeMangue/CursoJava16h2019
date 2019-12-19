@@ -15,14 +15,16 @@ public class Exerc09 {
     static double valor;
     static double percentagem = 0.70; 
     
-    public static double rendimento(){
+    public static double rendimento(double valor){
         return (valor * percentagem) + valor; 
     }
     
     public static void main(String[] args) {
-        double valor;
         Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o valor depositado: ");
+        valor = scan.nextDouble();
         
+        System.out.println("Valor apos 1 mes: "+rendimento(valor));
         
     }
 }
