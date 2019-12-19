@@ -12,4 +12,9 @@ package correccaoExercHerancaPol.exer08;
 public class Exerc08 {
     double valorEmDolar;
     
+    public static double convertor(double  valorEmDolar){
+        return  valorEmDolar * 1;
+    }
+    
+    
 }
