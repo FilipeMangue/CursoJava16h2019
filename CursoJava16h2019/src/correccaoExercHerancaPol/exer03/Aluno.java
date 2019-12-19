@@ -21,7 +21,9 @@ public class Aluno {
         if(media < 4)
             return estado = "Reprovado";
         return estado;
-                    
     }
     
+    public static void main(String[] args) {
+        
+    }
 }
