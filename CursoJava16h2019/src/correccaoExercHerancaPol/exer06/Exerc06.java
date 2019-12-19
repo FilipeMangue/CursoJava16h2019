@@ -18,4 +18,8 @@ public class Exerc06 {
     public static double salarioFinal(double salarioFixo, double totalVendasDinheiro){
         return (totalVendasDinheiro * comissao) +  salarioFixo;
     }
+    
+    public static void main(String[] args) {
+        
+    }
 }
