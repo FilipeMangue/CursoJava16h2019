@@ -35,6 +35,9 @@ public class CalculadoraBase {
         Scanner scan = new Scanner(System.in);
         
         System.out.print("Digite o num1: ");
+        num1 = scan.nextDouble();
         
+        System.out.print("Digite o num1: ");
+        num2 = scan.nextDouble();
     }
 }
