@@ -31,5 +31,7 @@ public class Exerc07 {
         nota2 = scan.nextDouble();
         System.out.println("Digite a nota3: ");
         nota3 = scan.nextDouble();
+        
+        System.out.println("A media do aluno: "+media(nota1, nota2, nota3));
     }
 }
