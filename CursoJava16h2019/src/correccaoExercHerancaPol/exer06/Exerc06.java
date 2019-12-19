@@ -34,5 +34,10 @@ public class Exerc06 {
         totalVendasDinheiro = scan.nextDouble();
         
         System.out.println("Relatorio");
+        System.out.println("Nome: "+nome);
+        System.out.println("Salario Fixo: "+salarioFixo);
+        System.out.println("Total de vendas por mes: "+totalVendasDinheiro);
+        System.out.println("Salario Final: "+salarioFinal(salarioFixo, totalVendasDinheiro));
+  
     }
 }
