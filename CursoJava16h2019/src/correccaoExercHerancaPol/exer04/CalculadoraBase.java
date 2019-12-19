@@ -42,5 +42,6 @@ public class CalculadoraBase {
         
         System.out.println("Soma: "+soma(num1,num2));
         System.out.println("Subtracao: "+subtracao(num1,num2));
+        System.out.println("Multiplicaco: "+multiplicacao(num1,num2));
     }
 }
