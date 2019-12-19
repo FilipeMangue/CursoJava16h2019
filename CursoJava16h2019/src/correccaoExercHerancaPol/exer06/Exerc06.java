@@ -7,8 +7,11 @@ package correccaoExercHerancaPol.exer06;
 
 /**
  *
- * @author Filipe Emanuel
+ * @author Filipe Mangue
  */
 public class Exerc06 {
-    
+    String nome;
+    double salarioFixo;
+    double totalVendasDinheiro;
+    double comissao = 0.15;
 }
