@@ -5,6 +5,8 @@
  */
 package correccaoExercHerancaPol.exer04;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Filipe Emanuel
@@ -28,6 +30,11 @@ public class CalculadoraBase {
     }
     
     public static void main(String[] args) {
+        double num1, num2;
+        
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Digite o num1: ");
         
     }
 }
