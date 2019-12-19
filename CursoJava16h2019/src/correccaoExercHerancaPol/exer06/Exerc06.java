@@ -24,13 +24,13 @@ public class Exerc06 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Digite o seu nome: ");
+        System.out.print("Digite o seu nome: ");
         nome = scan.next();
         
-        System.out.println("Digite o salario fixo: ");
+        System.out.print("Digite o salario fixo: ");
         salarioFixo = scan.nextDouble();
         
-        System.out.println("Digite o total de vendas por mes: ");
+        System.out.print("Digite o total de vendas por mes: ");
         totalVendasDinheiro = scan.nextDouble();
         
         System.out.println("Relatorio");
