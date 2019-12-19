@@ -10,5 +10,7 @@ package correccaoExercHerancaPol.exer04;
  * @author Filipe Emanuel
  */
 public class CalculadoraBase {
-    
+    public double soma(double num1, double num2){
+        return num1 + num2;
+    }
 }
