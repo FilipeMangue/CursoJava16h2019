@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class Exerc08 {
     static double valorEmDolar, qtdValorEmDolar;
     
-    public static double convertor(double  valorEmDolar){
-        return  valorEmDolar * 1;
+    public static double convertor(double  valorEmDolar, double qtdValorEmDolar){
+        return  valorEmDolar * qtdValorEmDolar;
     }
     
     public static void main(String[] args) {
@@ -26,6 +26,6 @@ public class Exerc08 {
         System.out.println("Digite o valor da cotacao em dolar: ");
         qtdValorEmDolar = scan.nextDouble();
         
-        System.out.println("Valor em meticais: "+convertor(valorEmDolar));
+        System.out.println("Valor em meticais: "+convertor(valorEmDolar,qtdValorEmDolar));
     }
 }
