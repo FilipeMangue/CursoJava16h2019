@@ -10,5 +10,7 @@ package correccaoExercHerancaPol.exer07;
  * @author Filipe Emanuel
  */
 public class Exerc07 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
