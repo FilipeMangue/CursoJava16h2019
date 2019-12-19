@@ -10,5 +10,6 @@ package correccaoExercHerancaPol.exer08;
  * @author Filipe Emanuel
  */
 public class Exerc08 {
+    double valorEmDolar;
     
 }
